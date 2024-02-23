@@ -1,0 +1,82 @@
+#container {
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 auto;
+	padding: 5rem;
+
+	border-radius: 15px;
+	<!--background-color: #C4CECD-->;
+  <!--background-image: linear-gradient(red, orange)-->;
+  background-image: url("1 thumbnail.JPG");
+
+	text-align: left;
+}
+@media only screen and (max-width: 768px){
+  .container {
+    width: 100%;
+  }
+}
+
+/* profile*/
+.profile_container{
+  display: flex
+    gap: 2rem
+}
+.profile_image_profileimg {
+  max-width: 250px;
+}
+
+
+img {
+  width: 100%
+}
+
+a {
+  text-decoration: none;
+  color: white;
+} 
+
+p {
+  font-family: Avenir, Ariel, Helvetica, sans-serif;
+	font-size: 18px;
+  font-style: italic;
+	margin-bottom: -10px;
+}
+
+h1 {
+  font-family: Avenir, Ariel, Helvetica, sans-serif;
+	font-size: 54px;
+	margin-bottom: -25px;
+}
+
+h2 {
+  font-family: Avenir, Ariel, Helvetica, sans-serif;
+  font-size: 22px;
+	margin-bottom: -6px;
+}
+
+h3 {
+  font-family: Avenir, Ariel, Helvetica, sans-serif;
+  font-size: 18px;
+	margin-bottom: -10px;
+}
+
+h4 {
+  font-family: Avenir, Ariel, Helvetica, sans-serif;
+	font-size: 15px;
+	margin-bottom: -10px;
+}
+
+h5 {
+  font-family: Avenir, Ariel, Helvetica, sans-serif;
+	font-size: 12px;
+	margin-bottom: -10px;
+}
+
+li {
+  font-family: Avenir, Ariel, Helvetica, sans-serif;
+	font-size: 18px;
+	text-align: left;
+  
+}
+
